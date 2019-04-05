@@ -1,4 +1,4 @@
-# Medical
+# SWAPI UI
 
 ## Project setup
 ```
