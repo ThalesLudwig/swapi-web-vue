@@ -1,5 +1,22 @@
 # SWAPI UI
 
+A simple, portfolio project to show the use of VueJS and its libraries.
+Tools used:
+- Vue CLI
+- Vuex
+- Vue-router
+- Axios
+- Bootstrap
+
+The app consumes a public Star Wars API:
+```
+https://swapi.co/
+```
+The code is:
+- Unit tested using `Jest`
+- e2e tested using `Cypress`
+- Linted using `ESlint`
+
 ## Project setup
 ```
 npm install
