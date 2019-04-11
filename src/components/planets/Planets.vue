@@ -86,9 +86,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home {
-	padding: 20px;
-}
 .form-control {
 	width: 500px;
 }
