@@ -70,15 +70,14 @@ export default {
 					})
 					.catch(function (error) {
 						this.data = []
-						alert('I felt a great disturbance in the Force... (see logs)')
-						console.log(error)
+						alert(`I felt a great disturbance in the Force... (${error})`)
 						this.isLoading = false
 					})
 			}
 		},
 		setCors() {
 			axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8'
-  			axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
+			axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 		},
 		setGenderColor(gender) {
 			return {

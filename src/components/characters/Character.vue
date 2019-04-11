@@ -40,7 +40,7 @@ export default {
 	methods: {
 		setCors() {
 			axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8'
-  			axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
+			axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 		},
 		getData() {
 			this.isLoading = true
@@ -51,8 +51,7 @@ export default {
 				})
 				.catch(function (error) {
 					this.data = null
-					alert('I felt a great disturbance in the Force... (see logs)')
-					console.log(error)
+					alert(`I felt a great disturbance in the Force... (${error})`)
 					this.isLoading = false
 				})
 		},
